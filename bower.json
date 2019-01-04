@@ -1,23 +1,11 @@
 {
   "name": "smoke.js",
   "main": "system for javascript",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "homepage": "http://smoke-js.com/",
-  "authors": [
-    "Jonathan Youngblood <jonathan.youngblood@gmail.com>"
-  ],
+  "authors": ["Jonathan Youngblood <jonathan.youngblood@gmail.com>"],
   "description": "framework-agnostic styled alert",
-  "keywords": [
-    "alert",
-    "vanillajs",
-    "framework-agnostic"
-  ],
+  "keywords": ["alert", "vanillajs", "framework-agnostic"],
   "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"]
 }
