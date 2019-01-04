@@ -1,7 +1,7 @@
 {
   "name": "smoke.js",
   "main": "system for javascript",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "http://smoke-js.com/",
   "authors": ["Jonathan Youngblood <jonathan.youngblood@gmail.com>"],
   "description": "framework-agnostic styled alert",

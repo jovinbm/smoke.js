@@ -309,7 +309,7 @@
     },
 
     finishbuildQuiz: function(e, f, box) {
-      var a, b, c;
+      var a, b, c, d;
 
       smoke.listen(
         document.getElementById('quiz-cancel-' + f.newid),
@@ -338,10 +338,10 @@
           f.callback(c.innerHTML);
         });
 
-      if ((c = document.getElementById('quiz-ok4-' + f.newid)))
-        smoke.listen(c, 'click', function() {
+      if ((d = document.getElementById('quiz-ok4-' + f.newid)))
+        smoke.listen(d, 'click', function() {
           smoke.destroy(f.type, f.newid);
-          f.callback(c.innerHTML);
+          f.callback(d.innerHTML);
         });
 
       document.onkeyup = function(e) {
